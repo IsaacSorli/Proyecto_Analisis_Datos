@@ -1,3 +1,11 @@
 ﻿-Para poder cargar los datos del Excel a SQL he tenido que separar en CSV las pestañas de mi documento usando el Microsoft visual basic para cargar un módulo que me lo automatizara.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -Después al cargar el dataset, he visto que habían datos incompatibles o también corrompidos por caracteres que estaban en otros alfabetos incompatibles, por lo que he tenido que transformarlos a UTF-8.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -He configurado y realizado la carga definitiva a PostgreSQL/Debeaver.
+
+[08/03/2026]
