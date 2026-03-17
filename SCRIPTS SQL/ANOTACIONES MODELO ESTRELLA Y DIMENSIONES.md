@@ -14,5 +14,6 @@
 --MODIFICACIÓN 17/03/2026--
 
 1-He añadido varias columnas a la tabla dimension de jugadores, basicamente no queria perder datos relevantes de altura y piernas con las que juegan.
+
 2-He modificado los nombres de un par de columnas.
 
