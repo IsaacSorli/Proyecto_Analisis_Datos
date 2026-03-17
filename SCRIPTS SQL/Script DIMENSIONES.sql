@@ -207,4 +207,4 @@ rename column "Pierna derecha" to "Pierna Derecha (20)";
 
 select * from dim_jugadores;
 select * from hechos_jugadores;
-
+select * from rel_jugador_nacionalidad rjn 
