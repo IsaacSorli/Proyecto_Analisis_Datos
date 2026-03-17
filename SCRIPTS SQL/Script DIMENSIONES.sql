@@ -19,11 +19,13 @@ select distinct
     pd."Habilidad Actual (200)",
     pd."Habilidad Potencial (200)"
 from "PF".jugadores_hechos jh
-inner join "PF".potencial_dimensiones pd on jh."Futbolista_ID" = pd."Futbolista_ID";  -- Hago Inner porque con el join normal, los null no me dejaban hacer que la pk funcionase.
+inner join "PF".potencial_dimensiones pd 
+on jh."Futbolista_ID" = pd."Futbolista_ID";  -- Hago Inner porque con el join normal, los null no me dejaban hacer que la pk funcionase.
 
 -- Agrego PK, ahora si funciona porque no hay null con el JOIN.
 ALTER TABLE analitica.dim_jugadores 
 ADD PRIMARY KEY ("Futbolista_ID");
+
 
 select * from analitica.dim_jugadores;
 
@@ -171,4 +173,38 @@ alter table analitica.rel_jugador_nacionalidad
 add constraint fk_rel_hechos
 foreign key (jugador_id) 
 references analitica.hechos_jugadores (jugador_id);
+
+
+-----------------------------------------------------------------
+--QUIERO AÑADIR VARIAS DIMENSIONES DE FISICO MAS A DIM_JUGADORES, COMO HAY RELACIONES, NO PUEDO DROPEAR
+-----------------------------------------------------------------
+
+select * from fisico1_dimensiones;
+select * from analitica.dim_jugadores;
+alter table analitica.dim_jugadores 
+add column "Altura(cm)" integer,
+add column "Peso(kg)" integer,
+add column "Pierna Izquierda" integer,
+add column "Pierna derecha" integer;
+
+update analitica.dim_jugadores dj
+set 
+    "Altura(cm)" = fd."Altura(cm)",      
+    "Peso(kg)" = fd."Peso(kg)",          
+    "Pierna Izquierda" = fd."Pierna Izquierda",  
+    "Pierna derecha" = fd."Pierna derecha"       
+from "PF".fisico1_dimensiones fd
+where dj."Futbolista_ID" = fd."Futbolista_ID";
+
+--Modifico nombre de columnas--
+alter table dim_jugadores
+rename column "Pierna Izquierda" to "Pierna Izquierda (20)";
+
+alter table dim_jugadores
+rename column "Pierna derecha" to "Pierna Derecha (20)";
+----------------------------------------------------------------
+----------------TEST-------------
+
+select * from dim_jugadores;
+select * from hechos_jugadores;
 
