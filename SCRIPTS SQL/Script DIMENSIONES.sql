@@ -202,6 +202,11 @@ rename column "Pierna Izquierda" to "Pierna Izquierda (20)";
 
 alter table dim_jugadores
 rename column "Pierna derecha" to "Pierna Derecha (20)";
+
+--Modifico nombre de tabla--
+
+alter table dim_jugadores 
+rename to dim_informacion;
 ----------------------------------------------------------------
 ----------------TEST-------------
 
