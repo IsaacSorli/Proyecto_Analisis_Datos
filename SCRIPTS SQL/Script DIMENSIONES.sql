@@ -171,8 +171,7 @@ foreign key (posicion_id) references dim_posiciones(posicion_id);
 
 alter table analitica.rel_jugador_nacionalidad
 add constraint fk_rel_hechos
-foreign key (jugador_id) 
-references analitica.hechos_jugadores (jugador_id);
+foreign key (jugador_id) references analitica.hechos_jugadores (jugador_id);
 
 
 -----------------------------------------------------------------
@@ -207,9 +206,34 @@ rename column "Pierna derecha" to "Pierna Derecha (20)";
 
 alter table dim_jugadores 
 rename to dim_informacion;
+
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+--Quiero hacer una nueva tabla de dimensiones con todas las habilidades visibles.
+--PK como Futbolista ID--
+
+create table analitica.dim_habilidades_visibles as
+select 
+    hv.*
+from "PF".habilidades_visibles_dimensione hv;
+
+delete from analitica.dim_habilidades_visibles 
+where "Futbolista_ID" is null;
+
+alter table analitica.dim_habilidades_visibles 
+add primary key ("Futbolista_ID");
+
+--Hago la relación de tablas
+
+alter table analitica.dim_habilidades_visibles
+add constraint fk_habilidades_visibles
+foreign key ("Futbolista_ID") references analitica.hechos_jugadores (jugador_id);
+
+
 ----------------------------------------------------------------
 ----------------TEST-------------
 
-select * from dim_jugadores;
+select * from dim_informacion;
 select * from hechos_jugadores;
 select * from rel_jugador_nacionalidad rjn 
