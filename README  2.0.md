@@ -32,3 +32,18 @@ Hablado con el profe 05/03/2026
 -visualizar KPI para reducir las dimensiones a las que usaré.
 
 ---------------------------------------------------------------------------------------------------------------------------
+
+Actualización ideas y cambio de dirección 13/05/2026
+
+-Lo hablado en clase y dandole vueltas al objetivo del trabajo, me le faltaba una idea clara central sobre la que desarrollar.
+
+-El objetivo de armar un equipo con un limite de presupuesto y buscando las mejores habilidades / proyección.
+
+-Añadiré un nuevo objetivo, una vez tenga el equipo estructurado, realizaré simulaciones de 1 temporada para recoger esos datos y tener una lectura final del proyecto.
+
+-Añadiré KPI que den una valoración de cada posición en un jugador usando los valores estadisticos de esa posición y así poder clasificarlos.
+(ejemplo, para la posicion de delantero un KPI que agrupe Finalizar, Definición dentro del área, Cabezazo, Primer toque, Decisión ,Anticipación,Juego sin balón.)
+
+-He estado mucho tiempo intentandolo hacer por medida, como estaba teniendo problemas en conseguir la cifra(mismo resultado unico o en blanco), he pasado a hacerlo añadiendo una columna y lo hare de todas las posiciones.
+
+-KPI Delantero columna creada
