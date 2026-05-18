@@ -47,3 +47,11 @@ Actualización ideas y cambio de dirección 13/05/2026
 -He estado mucho tiempo intentandolo hacer por medida, como estaba teniendo problemas en conseguir la cifra(mismo resultado unico o en blanco), he pasado a hacerlo añadiendo una columna y lo hare de todas las posiciones.
 
 -KPI Delantero columna creada
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Modificaciones tablas y nuevos KPI 18/05/2026
+
+-He creado un MD donde se especifican mejor los cambios hechos a las tablas para los KPI.
+-Tablas de KPI por posición creadas.
+-A la hora de pasarlo a una tabla para testear información, no ordena bien los datos, mirar con Guille a ver que pasa.
