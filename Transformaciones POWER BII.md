@@ -26,4 +26,11 @@
 -Al terminar mi primer KPI de delantero, vi que daba un resultado ilógico y se rompía la tabla. Después de identificar el problema, vi que la forma más sencilla de solucionarlo sin tener que hacer modificaciones en mi modelo de estrella era añadir los KPI como columna añadida a la tabla de dimensiones de habilidades.
 -Mi razonamiento fue el siguiente: cada jugador registrado en el juego es el hecho de la tabla de hechos y los KPI miden las habilidades de cada jugador; cada registro en habilidades pertenece al mismo registro del jugador en la tabla de hechos, por lo que si añado el KPI individualizado de cada posición en la tabla de dimensiones, será la opción más coherente y práctica.
 -He hecho los KPI de cada posición en el campo.
-##Preguntar a Guille por los filtros, no trabajan bien al ordenar##
+-Solucionado el problema de ordenar cantidades, habian formatos no normalizados a decimales.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+*Mas medidas añadidas*
+
+-He añadido aparte de KPI por posiciones, las medidas de jugadores totales por cada posición, para poder luego tener los KPI por posición sin necesidad de hacer filtros.
+-He revisado que todos los datos den resultados correctos y estén normalizados.

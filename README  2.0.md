@@ -46,6 +46,13 @@ Actualización ideas y cambio de dirección 13/05/2026
 
 -He estado mucho tiempo intentandolo hacer por medida, como estaba teniendo problemas en conseguir la cifra(mismo resultado unico o en blanco), he pasado a hacerlo añadiendo una columna y lo hare de todas las posiciones.
 
+---------------------------------------------------------------------------------------------------------------------------
+
+Solución de los KPI y nuevas medidas añadidas 19/05/2026
+
+-Solucioné los errores que estaba teniendo debido a que habia unas columnas añadidas no normalizadas correctamente con su formato, el cual generaba estos errores.
+-Nuevos KPI y medidas añadidas para no tener que andar con filtros manuales en cada grafico que tenia que realizar.
+
 -KPI Delantero columna creada
 
 ---------------------------------------------------------------------------------------------------------------------------
