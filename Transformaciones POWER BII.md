@@ -34,3 +34,10 @@
 
 -He añadido aparte de KPI por posiciones, las medidas de jugadores totales por cada posición, para poder luego tener los KPI por posición sin necesidad de hacer filtros.
 -He revisado que todos los datos den resultados correctos y estén normalizados.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+*Mas medidas añadidas II*
+
+-Añadidas medidas de promedios en velocidad y altura para establecer una relación con varios factores físicos por edad y posición.
+-Medida de habilidad potencial y habilidad actual hechas.
