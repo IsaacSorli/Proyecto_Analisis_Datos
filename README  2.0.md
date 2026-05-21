@@ -62,3 +62,13 @@ Modificaciones tablas y nuevos KPI 18/05/2026
 -He creado un MD donde se especifican mejor los cambios hechos a las tablas para los KPI.
 -Tablas de KPI por posición creadas.
 -A la hora de pasarlo a una tabla para testear información, no ordena bien los datos, mirar con Guille a ver que pasa.
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Nuevas medidas e inicio de la estructura 21/05/2026
+
+-Hablé con Guille sobre como dirigir la parte de la simulación, falta ver metodo de extracción de los datos simulados para decidir.
+-Opciones: 1) 1 temporada muchas veces para ver los resultados y analizar vs 5 temporadas de una misma plantilla y analizar.
+-He comenzado con las estructuras de las diapositivas, primero deberia ser la de presentación y despues las de datos, para introducir los datos he hecho una con jugadores totales, promedios por posición y una relación de factores fisicos y de edad por posición.
+-Siguiente paso, plantear la diapositiva de habilidad actual, potencial y mirar de comenzar a plantear la agrupación por posiciones.
