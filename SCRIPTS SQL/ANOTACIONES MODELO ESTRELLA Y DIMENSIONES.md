@@ -17,3 +17,7 @@
 
 2-He modificado los nombres de un par de columnas.
 
+--MODIFICACIÓN 08/06/2026
+
+1- Realizado toda la parte del informe, he creado una carpeta donde guardar scripts antiguos y he dejado fuera de ella dos archivos, una con el script de las consultas y otra con la creación de las tablas analiticas.
+
