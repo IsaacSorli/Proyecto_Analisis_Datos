@@ -72,3 +72,14 @@ Nuevas medidas e inicio de la estructura 21/05/2026
 -Opciones: 1) 1 temporada muchas veces para ver los resultados y analizar vs 5 temporadas de una misma plantilla y analizar.
 -He comenzado con las estructuras de las diapositivas, primero deberia ser la de presentación y despues las de datos, para introducir los datos he hecho una con jugadores totales, promedios por posición y una relación de factores fisicos y de edad por posición.
 -Siguiente paso, plantear la diapositiva de habilidad actual, potencial y mirar de comenzar a plantear la agrupación por posiciones.
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Actualización, cambios y orden 08/06/2026
+
+-No habia actualizado el documento, toca updatear.
+-Creadas subcarpetas para redistribuir los archivos y tenerlo todo mas ordenado.
+-Creación del archivo de informe y actualización, hasta parte de sql hecho.
+-Parte de antes de las QUERY en principio revisada ortograficamente.
+-query de sql tanto analiticas como de informe creadas y subidas en su carpeta.
