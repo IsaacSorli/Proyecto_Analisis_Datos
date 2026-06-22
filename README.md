@@ -1,20 +1,67 @@
 ﻿***Proyecto de final de Bootcamp Análisis de Datos***
 
+
+***Información, objetivos y estructura***
+
+
+*Información*
+
+- Football Manager 2023 es un videojuego de Sports Interactive y Sega. Consiste en un simulador de dirección deportiva con una extensa base de datos, la cual se involucra directamente en la simulación y el funcionamiento de la partida.
+
+- Cada futbolista registrado cuenta con una serie de valores numéricos distribuidos en sus habilidades, los cuales están directamente relacionados con la simulación de los partidos. Cuanto más altos son los números, mejores son sus características y tienden a tener mejores registros.
+
+
+
+*Objetivos*
+
+
+-El principal objetivo del proyecto es organizar un equipo titular con el cual, usando herramientas de análisis de datos, podamos maximizar su rendimiento y estudiar su impacto en el equipo.
+
+-Para conseguir ese objetivo, nos tendremos que ceñir a las mismas normas que los equipos de la Primera División española y también a ciertas limitaciones, para poder afrontar la construcción de este equipo de una forma más equilibrada y realista.
+
+-Otros objetivos serán la búsqueda de patrones relacionados con sus habilidades por posición, edad, salario o incluso nacionalidad, y ver si estos afectan a los jugadores.
+
+
+*Estructura*
+
+- El proyecto consta de varias partes. La primera sirve como introducción a los conceptos de este videojuego: qué es, cómo funciona, los objetivos y su motivación.
+
+- Una segunda parte centrada en los procesos de limpieza y adaptación del conjunto de datos, su transformación para trabajar con varias herramientas y, finalmente, su carga en Power BI para ser graficado.
+
+- La tercera parte se centra en la estadística y otras técnicas analíticas utilizadas para trabajar en la búsqueda e interpretación de patrones.
+
+- La cuarta parte consta de los resultados de la elección del equipo. Se han simulado 100 temporadas para tener una muestra y poder interpretar los resultados.
+
+- La última parte son las conclusiones del proyecto.
+
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+***DIARIO DE AVANCES***
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+***Actualizaciones y avance***
+
 *Tareas pendientes de hacer: (Update 05/03/2026)*
 
-Hacer el diccionario del dataset (Prioridad Baja)
+- Hacer el diccionario del dataset (Prioridad Baja)
 
-Hacer carga del dataset a SQL (Prioridad Alta)
+- Hacer carga del dataset a SQL (Prioridad Alta)
 
-Crear vistas del dataset desde SQL (Prioridad Alta)
+- Crear vistas del dataset desde SQL (Prioridad Alta)
 
-Cargar vistas de SQL a Power BI (Resolver antes prioridad Alta)
+- Cargar vistas de SQL a Power BI (Resolver antes prioridad Alta)
 
-Revisar los KPI seleccionados (Resolver antes prioridad Alta)
+- Revisar los KPI seleccionados (Resolver antes prioridad Alta)
 
-Planificar esquema de estructura en los dashboards (Resolver antes prioridad Alta)
+- Planificar esquema de estructura en los dashboards (Resolver antes prioridad Alta)
 
-Hacer los dashboards (Resolver antes prioridad Alta)
+- Hacer los dashboards (Resolver antes prioridad Alta)
 
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -101,3 +148,7 @@ Actualización 16/06/2026
 -Restructuración del informe como le comenté a Guille, ahora si que está basado en la plantilla de la información.
 -Hechas las simulaciones, complementados los informes ejecutivo, la parte del informe y el dashboard con los resultados.
 -Revision y pulido del dashboard, homogenizado y con la base de presentación mas trabajada.
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
