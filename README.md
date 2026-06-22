@@ -97,10 +97,10 @@ Actualización ideas y cambio de dirección 13/05/2026
 
 Solución de los KPI y nuevas medidas añadidas 19/05/2026
 
--Solucioné los errores que estaba teniendo debido a que habia unas columnas añadidas no normalizadas correctamente con su formato, el cual generaba estos errores.
--Nuevos KPI y medidas añadidas para no tener que andar con filtros manuales en cada grafico que tenia que realizar.
+- Solucioné los errores que estaba teniendo debido a que habia unas columnas añadidas no normalizadas correctamente con su formato, el cual generaba estos errores.
+- Nuevos KPI y medidas añadidas para no tener que andar con filtros manuales en cada grafico que tenia que realizar.
 
--KPI Delantero columna creada
+- KPI Delantero columna creada
 
 ---------------------------------------------------------------------------------------------------------------------------
 
