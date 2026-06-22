@@ -145,9 +145,9 @@ Actualización, analisis 13/06/2026
 
 Actualización 16/06/2026
 
--Restructuración del informe como le comenté a Guille, ahora si que está basado en la plantilla de la información.
--Hechas las simulaciones, complementados los informes ejecutivo, la parte del informe y el dashboard con los resultados.
--Revision y pulido del dashboard, homogenizado y con la base de presentación mas trabajada.
+- Restructuración del informe como le comenté a Guille, ahora si que está basado en la plantilla de la información.
+- Hechas las simulaciones, complementados los informes ejecutivo, la parte del informe y el dashboard con los resultados.
+- Revision y pulido del dashboard, homogenizado y con la base de presentación mas trabajada.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
